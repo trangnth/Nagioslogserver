@@ -1,0 +1,38 @@
+# Requirements
+- CentOS 7
+- Single Core Processor
+- 2 GB RAM
+
+# Installtion
+## Trên server
+Gõ các lệnh sau:
+    cd /tmp
+    wget https://assets.nagios.com/downloads/nagios-log-server/nagioslogserver-latest.tar.gz
+    tar xzf nagioslogserver-latest.tar.gz
+    cd nagioslogserver
+    ./fullinstall
+
+Sau đó truy cập vào địa chỉ web sau: `http://your_ip_server/nagioslogserver` đăng nhập để hoàn thành việc cài đặt.
+
+<img src = "Final Installtion Step.png">
+
+giao diện sau cài đặt xong
+
+<img src = "home.png">
+
+Thêm source log từ linux, chọn `+ Log source` -> `linux source`
+
+<img src = "linux_source.png">
+
+Ở đây sẽ có hướng dẫn cho từng server (địa chỉ của từng server) chỉ việc copy vào client và chạy. Nếu muốn gửi file hoặc thư mục bắt kỳ thì thêm đường dẫn của nó vào sau lệnh chạy file script. Kéo xuống dưới, bấm vào `linux file` để xem hướng dẫn.
+
+<img src = "linux_file.png">
+
+Ví dụ: 
+
+  sudo bash setup-linux.sh -s 192.168.169.194 -p 5544 -f "/var/log/*" -t 191Ubuntu_log
+  
+ <img src = "dashboard.png">
+
+
+
