@@ -6,6 +6,7 @@
 # Installtion
 ## Trên server
 Gõ các lệnh sau:
+    
     cd /tmp
     wget https://assets.nagios.com/downloads/nagios-log-server/nagioslogserver-latest.tar.gz
     tar xzf nagioslogserver-latest.tar.gz
@@ -14,7 +15,7 @@ Gõ các lệnh sau:
 
 Sau đó truy cập vào địa chỉ web sau: `http://your_ip_server/nagioslogserver` đăng nhập để hoàn thành việc cài đặt.
 
-<img src = "Final Installtion Step.png">
+<img src = "Final Installtion Steps.png">
 
 giao diện sau cài đặt xong
 
@@ -28,10 +29,18 @@ Thêm source log từ linux, chọn `+ Log source` -> `linux source`
 
 <img src = "linux_file.png">
 
+## Trên client
+Copy lệnh từ server:
+
+    curl -s -O http://192.168.169.194/nagioslogserver/scripts/setup-linux.sh
+    sudo bash setup-linux.sh -s 192.168.169.194 -p 5544 -f "/path/to/file /path/to/another/file/*.log" -t FILE_TAG
+
 Ví dụ: 
 
-  sudo bash setup-linux.sh -s 192.168.169.194 -p 5544 -f "/var/log/*" -t 191Ubuntu_log
+    sudo bash setup-linux.sh -s 192.168.169.194 -p 5544 -f "/var/log/*" -t 191Ubuntu_log
   
+ Sau đó vào Dashboard sẽ được như sau:
+ 
  <img src = "dashboard.png">
 
 
