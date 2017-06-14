@@ -7,11 +7,11 @@
 ## Trên server
 - Gõ các lệnh sau:
     
-    cd /tmp
-    wget https://assets.nagios.com/downloads/nagios-log-server/nagioslogserver-latest.tar.gz
-    tar xzf nagioslogserver-latest.tar.gz
-    cd nagioslogserver
-    ./fullinstall
+        cd /tmp
+        wget https://assets.nagios.com/downloads/nagios-log-server/nagioslogserver-latest.tar.gz
+        tar xzf nagioslogserver-latest.tar.gz
+        cd nagioslogserver
+        ./fullinstall
 
 - Sau đó truy cập vào địa chỉ web sau: `http://your_ip_server/nagioslogserver` đăng nhập để hoàn thành việc cài đặt.
 
