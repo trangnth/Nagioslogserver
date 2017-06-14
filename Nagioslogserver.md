@@ -15,7 +15,7 @@ Gõ các lệnh sau:
 
 Sau đó truy cập vào địa chỉ web sau: `http://your_ip_server/nagioslogserver` đăng nhập để hoàn thành việc cài đặt.
 
-<img src = "Final Installtion Steps.png">
+<img src = "Final Installation Steps.png">
 
 giao diện sau cài đặt xong
 
