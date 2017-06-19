@@ -45,3 +45,17 @@ Ví dụ:
  <img src = "dashboard.png">
 
 ## Window file
+Xem hướng dẫn trên web interface của nagios như trên.
+
+Sau khi cài nxlog sửa file nxlog.conf ở `C:\Program Files\nxlog\conf\nxlog.conf` hoặc `C:\Program Files (x86)\nxlog\conf\nxlog.conf` để send event log. 
+
+Ví dụ: [nxlog.conf](nxlog.conf)
+
+Sau đó chạy lệnh `net start nxlog` để bắt đầu
+
+Vào Dashboard
+
+<img scr = "1.png">
+
+
+
