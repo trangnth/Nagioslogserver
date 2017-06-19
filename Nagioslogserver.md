@@ -4,7 +4,8 @@
 - 2 GB RAM
 
 # Installtion
-## Trên server
+## Linux file
+### Trên server
 - Gõ các lệnh sau:
     
         cd /tmp
@@ -43,5 +44,4 @@ Ví dụ:
  
  <img src = "dashboard.png">
 
-
-
+## Window file
