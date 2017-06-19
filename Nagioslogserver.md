@@ -55,7 +55,7 @@ Sau đó chạy lệnh `net start nxlog` để bắt đầu
 
 Vào Dashboard
 
-<img scr = "1.png">
+<img src = "1.png">
 
 
 
