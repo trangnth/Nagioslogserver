@@ -30,7 +30,7 @@
 
 <img src = "linux_file.png">
 
-## Trên client
+### Trên client
 - Copy lệnh từ server:
 
     curl -s -O http://192.168.169.194/nagioslogserver/scripts/setup-linux.sh
